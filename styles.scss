@@ -6,20 +6,36 @@ section{
   aside{
     @include span-columns(9);
     	margin-top: 25px;
+    	background-color: tomato;
+    	color: white;
     	} 
   
   article{
     @include span-columns(3);
 		@include omega();
-  		margin-top: 25px;
+  	margin-top: 25px;
+  	background-color: tomato;
+  	color: white;
   	}
   .aside2{
     @include span-columns(10);
+	  .left{
+	    @include span-columns(5 of 10);
+	    background-color: tomato;
+	    color: white;
+	    	}
+	  .right{
+	    @include span-columns(5 of 10);
+	    background-color: tomato;
+	    color: white;
+	    	}
     	} 
   
   .article2{
     @include span-columns(2);
     @include omega();
+    background-color: tomato;
+    color: white;
   	}
 
 }

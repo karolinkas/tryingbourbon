@@ -25,7 +25,9 @@ section {
     display: block;
     margin-right: 2.35765%;
     width: 74.41059%;
-    margin-top: 25px; }
+    margin-top: 25px;
+    background-color: tomato;
+    color: white; }
     section aside:last-child {
       margin-right: 0; }
   section article {
@@ -34,7 +36,9 @@ section {
     margin-right: 2.35765%;
     width: 23.23176%;
     margin-right: 0;
-    margin-top: 25px; }
+    margin-top: 25px;
+    background-color: tomato;
+    color: white; }
     section article:last-child {
       margin-right: 0; }
   section .aside2 {
@@ -44,12 +48,32 @@ section {
     width: 82.94039%; }
     section .aside2:last-child {
       margin-right: 0; }
+    section .aside2 .left {
+      float: left;
+      display: block;
+      margin-right: 2.84259%;
+      width: 48.57871%;
+      background-color: tomato;
+      color: white; }
+      section .aside2 .left:last-child {
+        margin-right: 0; }
+    section .aside2 .right {
+      float: left;
+      display: block;
+      margin-right: 2.84259%;
+      width: 48.57871%;
+      background-color: tomato;
+      color: white; }
+      section .aside2 .right:last-child {
+        margin-right: 0; }
   section .article2 {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 14.70196%;
-    margin-right: 0; }
+    margin-right: 0;
+    background-color: tomato;
+    color: white; }
     section .article2:last-child {
       margin-right: 0; }
 
