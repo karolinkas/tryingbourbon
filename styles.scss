@@ -1,0 +1,32 @@
+@import "bourbon/bourbon";
+@import "neat/neat";
+ 
+section{
+  @include outer-container;
+  aside{
+    @include span-columns(9);
+    	margin-top: 25px;
+    	} 
+  
+  article{
+    @include span-columns(3);
+		@include omega();
+  		margin-top: 25px;
+  	}
+  .aside2{
+    @include span-columns(10);
+    	} 
+  
+  .article2{
+    @include span-columns(2);
+    @include omega();
+  	}
+
+}
+
+
+
+
+
+  
+
